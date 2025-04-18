@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/myimage"
+        android:src="https://images.pexels.com/photos/675920/pexels-photo-675920.jpeg?cs=srgb&amp;dl=pexels-minan1398-675920.jpg&amp;fm=jpg"
+        android:layout_marginTop="10dp"
+
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvname"
+        android:layout_marginTop="10dp"
+        android:text="enter name"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:Size="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvemail"
+        android:layout_marginTop="10dp"
+        android:text="enter email"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:Size="10dp">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="edit information"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        >
+
+    </Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rename"
+        android:hint="rename"
+        android:text="raname">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvseek"
+        android:text="image"
+        android:textSize="10dp">
+
+    </TextView>
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myseek">
+
+    </SeekBar>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/checkbox"
+        android:text="تفعيل الحساب"
+        android:textColor="@color/teal_700">
+
+    </CheckBox>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

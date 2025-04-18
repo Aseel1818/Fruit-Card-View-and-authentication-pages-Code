@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/checkbox"
+        android:text="activate and disble"
+        android:textColor="@color/teal_700"
+        >
+
+    </CheckBox>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvseek3"
+        android:text="مستوئ الصوت"
+        android:textSize="10dp">
+
+    </TextView>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myseek">
+
+    </SeekBar>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="save settings"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        >
+
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvseek2"
+        android:text=" choose an item form list"
+        android:textSize="10dp">
+
+    </TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myspinner"
+        android:spinnerMode="dropdown">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="reset the settings"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        >
+
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvseek"
+        android:text="brightness adjustment"
+        android:textSize="10dp">
+
+    </TextView>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myseek2"
+        >
+
+    </SeekBar>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
